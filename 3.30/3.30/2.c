@@ -5,7 +5,7 @@ int main()
 	int a = 0;
 	int b = 0;
 	int sum=a+b;
-	scanf ("%d %d",&a ,&b);//scanf_sûо
+	scanf ("%d %d",&a ,&b);//用scanf_s就不会有警告
 	printf("%d\n", sum);
 	return 0;
 }
