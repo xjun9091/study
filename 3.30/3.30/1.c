@@ -1,12 +1,12 @@
 //#define _CRT_SECURE_NO_WARNINGS 
 //
 #include <stdio.h>
-int main()
+/*int main()
 {
 	printf("%c\n",77);//m
 	printf("%c\n", 98);//b
 	return 0;
-}
+}*/
 int main()
 {
 	int i = 0;
