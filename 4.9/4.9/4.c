@@ -18,12 +18,12 @@
 //}
 
 
-int main()
-{
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	scanf("%d %d", &a, &b);
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int c = 0;
+//	scanf("%d %d", &a, &b);
 	 //如果a=18，b=24
 	    
 	 //第一次：a = 18  b = 24  c = a % b = 18 % 24 = 18
@@ -37,12 +37,12 @@ int main()
 	//第三次：a = 18   b = 6   c = a % b = 18 % 6 = 0
 		//循环结束
 
-	while (c = a % b)
-	{
-		a = b;
-		b = c;
-	}
-
-	printf("%d\n", b);
-	return 0;
-}
+//	while (c = a % b)
+//	{
+//		a = b;
+//		b = c;
+//	}
+//
+//	printf("%d\n", b);
+//	return 0;
+//}
