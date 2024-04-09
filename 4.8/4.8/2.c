@@ -1,7 +1,7 @@
 //#define _CRT_SECURE_NO_WARNINGS 
 //#include <stdio.h>
 
-
+//求1/1-1/2+1/3-1/4+...+1/99-1/100的和
 // 第一种方法
 //int main()
 //{

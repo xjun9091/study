@@ -1,5 +1,8 @@
 //#define _CRT_SECURE_NO_WARNINGS 
 //#include<stdio.h>
+ 
+//求1到100中的数含多少个9
+
 //int main ()
 //{
 //	int a = 0;

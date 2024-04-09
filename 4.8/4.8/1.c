@@ -24,7 +24,7 @@
 //	return 0;
 //}
 
-
+//输出10个数中的最大数
 //正确方法
 //int main()
 //{
@@ -33,14 +33,14 @@
 //	int i = 0;
 //	for (i = 1; i <= 10; i++)
 //	{
-//		scanf("%d", &arr[i]);
+//		scanf("%d", &arr[i]);//循环输入十个数
 //	}
 //	max = arr[0];
 //	for (i = 1; i < 10; i++)
 //	{
-//		if (max <= arr[i])
+//		if (max <= arr[i])//比较
 //		{
-//			max = arr[i];
+//			max = arr[i];//将最大数赋值给max
 //		}
 //	}
 //	printf("最大整数为%d\n", max);
