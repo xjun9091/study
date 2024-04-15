@@ -140,47 +140,68 @@
 //    }
 //    return 0;
 //}
+
+//#include<stdio.h>
+//int main()
+//{
+//    int n = 0;
+//    int m = 0;
+//    int arr1[1000] = { 0 };
+//    int arr2[1000] = { 0 };
+//    //输入n和m
+//    scanf("%d %d", &n, &m);
+//    int i = 0;
+//    int j = 0;
+//    //输入两个升序序列
+//    for (i = 0; i < n; i++)
+//    {
+//        scanf("%d", &arr1[i]);
+//    }
+//    for (i = 0; i < m; i++)
+//    {
+//        scanf("%d", &arr2[i]);
+//    }
+//    //合并有序序列并输出
+//    i = 0; j = 0;
+//    while (i < n && j < m)
+//    {
+//        if (arr1[i] < arr2[j])
+//        {
+//            printf("%d ", arr1[i]);
+//            i++;
+//        }
+//        else
+//        {
+//            printf("%d ", arr2[j]);
+//            j++;
+//        }
+//    }
+//
+//    //判断尚未遍历完的数组是否需要打印输出
+//    if (i == n && j < m)
+//        for (; j < m; j++)
+//            printf("%d ", arr2[j]);
+//    else
+//        for (; i < n; i++)
+//            printf("%d ", arr1[i]);
+//    return 0;
+//}
+
+
+
+#include<stdio.h>
 int main()
 {
-    int n = 0;
-    int m = 0;
-    int arr1[1000] = { 0 };
-    int arr2[1000] = { 0 };
-    //输入n和m
-    scanf("%d %d", &n, &m);
-    int i = 0;
-    int j = 0;
-    //输入两个升序序列
-    for (i = 0; i < n; i++)
-    {
-        scanf("%d", &arr1[i]);
-    }
-    for (i = 0; i < m; i++)
-    {
-        scanf("%d", &arr2[i]);
-    }
-    //合并有序序列并输出
-    i = 0; j = 0;
-    while (i < n && j < m)
-    {
-        if (arr1[i] < arr2[j])
-        {
-            printf("%d ", arr1[i]);
-            i++;
-        }
-        else
-        {
-            printf("%d ", arr2[j]);
-            j++;
-        }
-    }
-
-    //判断尚未遍历完的数组是否需要打印输出
-    if (i == n && j < m)
-        for (; j < m; j++)
-            printf("%d ", arr2[j]);
-    else
-        for (; i < n; i++)
-            printf("%d ", arr1[i]);
-    return 0;
+	int arr[10] = { 0 };
+	float sum = 0;
+	for (int i = 0; i < 10; i++)
+	{
+		scanf("%d", &arr[i]);
+	}
+	for (int j = 0; j < 10; j++)
+	{
+		sum += arr[j];
+	}
+	printf("%lf", sum / 10);
+	return 0;
 }
