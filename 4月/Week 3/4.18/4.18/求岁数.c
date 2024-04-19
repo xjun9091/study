@@ -28,18 +28,20 @@ int main()
 			arr[m % 10] = 1;
 			m = m / 10;
 		}
+		int found = 1;
 		for (int i = 0; i < 10; i++)
 		{
 			if (arr[i] == 0)
 			{
-				age++;
+				found = 0;
 				break;
 			}
-			else
+			if(found = 1)
 			{
-				 break;
+				 break; 
 			}
 		}
+		age++;
 	}
 	printf("此人的年龄是%d\n", age);
 	return 0;
