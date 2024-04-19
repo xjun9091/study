@@ -10,3 +10,4 @@
 
 
 void InitBorad(char Borad[ROWS][COLS], int rows, int cols, char n);
+void printBorad(char Borad[ROWS][COLS], int row, int col);

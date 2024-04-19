@@ -19,7 +19,7 @@ void game()
 	InitBorad(show, ROWS, COLS, '*');
 
 	//¥Ú”°∆Â≈Ã
-	printBorad(mine, ROW, COL);
+	/*printBorad(mine, ROW, COL);*/
 	printBorad(show, ROW, COL);
 }
 
