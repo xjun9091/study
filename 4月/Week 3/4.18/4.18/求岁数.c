@@ -36,12 +36,10 @@ int main()
 				found = 0;
 				break;
 			}
-			if(found = 1)
-			{
-				 break; 
-			}
 		}
-		age++;
+			if(found == 1)
+				 break; 
+				age++;	
 	}
 	printf("此人的年龄是%d\n", age);
 	return 0;
