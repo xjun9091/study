@@ -15,20 +15,29 @@ void game()
 	char mine[ROWS][COLS] = { 0 };//存放布置的雷
 	char show[ROWS][COLS] = { 0 };//存放排查出的雷的信息
 	//初始化棋盘
-	InitBorad(mine, ROWS, COLS, '0');
-	InitBorad(show, ROWS, COLS, '*');
+	InitBoard(mine, ROWS, COLS, '0');//雷所在棋盘
+	InitBoard(show, ROWS, COLS, '*');//显示棋盘
 
 	//打印棋盘
-	/*printBorad(mine, ROW, COL);*/
-	printBorad(show, ROW, COL);
-}
+	/*printBoard(mine, ROW, COL);*/
+	printBoard(show, ROW, COL);
+
+	//布置雷
+	SetMine(mine,ROW,COL);
+	/*printBoard(mine, ROW, COL);*/
+
+	//排查雷
+	Findmine(mine,show, ROW, COL);
+} 
 
 int main()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
+		printf("请选择:> ");
 		scanf("%d", &input);
 		switch(input)
 		{
