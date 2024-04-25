@@ -9,7 +9,7 @@
 # define ROWS ROW+2
 # define COLS COL+2
 
-# define EASY_COUNT 80
+# define EASY_COUNT 10
 
 void InitBoard(char Board[ROWS][COLS], int rows, int cols, char n);
 void printBoard(char Board[ROWS][COLS], int row, int col);
